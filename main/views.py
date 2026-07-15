@@ -4,8 +4,8 @@ def index(request):
     context = {
         'name': '강동현',
         'title': '개발을 즐기는 개발자',
-        'email': 'kangdh208@gmail.com',
-        'phone': '+821071899403',
+        'email': 'kangdh318@gmail.com',
+        'phone': '+82 010 2179 0151',
         'github': 'https://github.com/kangdh208',
         'about': [
             '문제 해결에 주도적으로 나서고, 새로운 기술에 두려움 없이 도전하며 사람들과 협업을 하여 함께 성장하고 발전하는 것을 중요시하는 개발자입니다.',
@@ -24,7 +24,7 @@ def index(request):
         ],
         'work': {
             'company': 'KUSRC',
-            'period': '2024.01 ~ 현재',
+            'period': '2024.01 ~ 2026.06',
             'position': '고객사 데이터 ETL 및 디지털 트랜스포메이션',
             'description': '고객사의 레거시 데이터를 분석하고 현대적인 디지털 환경으로 전환하는 프로젝트를 수행. 데이터베이스 구조 분석부터 ETL 파이프라인 구축, API 개발, 사용자 친화적인 인터페이스 개발까지 전 과정을 담당.',
             'achievements': [
