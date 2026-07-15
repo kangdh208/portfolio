@@ -73,6 +73,7 @@
     <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
         <span class="param">self</span>.name = <span class="string">"강동현"</span>
         <span class="param">self</span>.skills = [<span class="string">"Python"</span>, <span class="string">"Django"</span>, <span class="string">"AWS"</span>]
+        <span class="param">self</span>.ai_tools = [<span class="string">"Claude"</span>, <span class="string">"ChatGPT"</span>, <span class="string">"Gemini"</span>, <span class="string">"MCP"</span>]
         <span class="param">self</span>.passion = <span class="number">∞</span>
     
     <span class="keyword">def</span> <span class="function">solve_problem</span>(<span class="param">self</span>, problem):
@@ -154,6 +155,20 @@
                     <h3>Database</h3>
                     <div class="skill-tags">
                         {% for skill in skills.database %}
+                        <span class="skill-tag">{{ skill }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a3 3 0 0 0-3 3 3 3 0 0 0-3 3 3 3 0 0 0-1 5.83A3 3 0 0 0 6 19a3 3 0 0 0 3 3 3 3 0 0 0 3-1 3 3 0 0 0 3 1 3 3 0 0 0 3-3 3 3 0 0 0 1-5.17A3 3 0 0 0 18 8a3 3 0 0 0-3-3 3 3 0 0 0-3-3z"/>
+                            <path d="M12 5v14M9 8h.01M15 8h.01"/>
+                        </svg>
+                    </div>
+                    <h3>AI</h3>
+                    <div class="skill-tags">
+                        {% for skill in skills.ai %}
                         <span class="skill-tag">{{ skill }}</span>
                         {% endfor %}
                     </div>
