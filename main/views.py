@@ -15,7 +15,7 @@ def index(request):
         'skills': {
             'backend': ['Java', 'SpringBoot', 'Python', 'Django', 'JavaScript'],
             'database': ['MySQL', 'PostgreSQL', 'Redis', 'NoSQL'],
-            'ai': ['Claude / Claude Code', 'ChatGPT / Codex', 'Gemini', 'MCP (Model Context Protocol)', 'LLM API 연동', 'RAG', 'Prompt Engineering', 'Cursor', 'AI Pair Programming'],
+            'ai': ['Claude / ChatGPT / Gemini', 'MCP (Model Context Protocol)', 'LLM API 연동', 'RAG', 'Prompt Engineering', 'Cursor', 'Harness Engineering', 'Loop Engineering'],
             'cloud': ['AWS (Lambda, S3, RDS, EC2)', 'Heroku'],
             'tools': ['Git', 'GitHub', 'IntelliJ', 'VSCode', 'PyCharm']
         },
